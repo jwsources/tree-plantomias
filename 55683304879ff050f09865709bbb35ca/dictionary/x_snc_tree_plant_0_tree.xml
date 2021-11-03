@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Tree" max_length="40" name="x_snc_tree_plant_0_tree" sizeclass="3" type="collection">
+    <element label="Tree" max_length="40" name="x_snc_tree_plant_0_tree" sizeclass="1" type="collection">
         <element attributes="encode_utf8=false" label="Location" max_length="32" name="location" reference="cmn_location" type="reference"/>
         <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
         <element attributes="edge_encryption_enabled=true" choice="3" default="open" label="Status" max_length="40" name="status" type="choice">
